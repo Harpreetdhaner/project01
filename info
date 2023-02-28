@@ -1,2 +1,6 @@
 GIT COMMANDS : 
 git init
+git remote add origin _________________________
+git add .
+git commit -m "_________________"
+git push
