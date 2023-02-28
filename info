@@ -4,3 +4,20 @@ git remote add origin _________________________
 git add .
 git commit -m "_________________"
 git push
+
+
+
+DATABASE CONNECTIVIY WITH NODE JS: 
+
+1. MYSQL INSTALL ON YOUR SYSTEM
+2. INSTALL XAMPP 
+    CREDIENTAILS  :    
+       username : root
+       password: password
+3. PACKAGES TO BE INSTALLED : sequelize-cli, sequelize , mysql2
+NOTE - these packages need to be installed globally with "npm i package_name -g"
+
+4. SEQUELIZE AUTO - to genrate models from tables 
+  npm install sequelize-auto -g
+
+sequelize-auto -h 127.0.0.1 -d kuch_bhi -u root -x "" -p 3306  --dialect mysql2 -c ./config/config.json -o ./models -t users
